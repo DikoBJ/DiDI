@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <title>Portfolio</title>
+</head>
+<body>
+  
+<div class="logo">DikoBJ</div>
+  <div class="main_home">
+    <div class="nav_bar">
+      <a href="#">Home</a>
+      <a class="right" href="motion_design.html">Motion Design</a>
+      <a class="right" href="developer.html">Development</a>
+      <a href="#main_skills">Skills</a>
+      <a href="#contact_form">Contacts</a>
+    </div>
+
+    <div id="menu-bar_home" onclick="toggleNav()">
+      <div class="menu-icon"></div>
+      <div class="menu-icon"></div>
+      <div class="menu-icon"></div>
+    </div>
+    <div id="navigation">
+      <div id="close-button" onclick="toggleNav()">
+        <div class="menu-icon"></div>
+        <div class="menu-icon"></div>
+        <div class="menu-icon"></div>
+      </div>
+      <div class="nav_bar_developer">
+        <a href="#">Home</a>
+        <a class="right" href="motion_design.html">Motion Design</a>
+        <a class="right" href="developer.html">Development</a>
+        <a href="#main_skills" >Skills</a>
+        <a href="#contact_form">Contacts</a>
+      </div>
+    </div>
+
+    <img class="img_home_bg" src="images/home_bg2.png" alt="">
+
+  </div>
+
+<div id="main_skills">
+  <img class="img_second" src="images/second_main.png" alt="" srcset="">
+</div>
+
+<div class="main_contact">
+  <img class="img_contact" src="images/contact.jpg" alt="" srcset="">
+
+  <div class="icon_wrapper">
+    <a href="https://github.com/DikoBJ"><img class="icon" src="images/github.png" alt="" srcset=""></a>
+    <a href="https://www.instagram.com/di.kooooo/"><img class="icon" src="images/insta.png" alt="" srcset=""></a>
+    <a href="https://www.linkedin.com/in/diana-amralina-689142191/"><img class="icon" src="images/linkedin.png" alt="" srcset=""></a>
+  </div>
+
+  <div id="contact_form">
+    <h1>Message</h1>
+    <form action="mailto:Amralina.Diana@gmail.com" method="POST" enctype="text/plain">
+      <input type="text"  name="name" placeholder="Your Name:" required><br>
+      <textarea name="message" placeholder="Your Message:" required></textarea><br>
+      <input type="submit" value="Send">
+    </form>
+  </div>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>

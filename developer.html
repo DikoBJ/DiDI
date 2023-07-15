@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html class="developer_html" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="main.js"></script>
+    <title>Document</title>
+</head>
+<body class="developer_body">
+  <div class="logo">DikoBJ</div>
+
+  <div id="menu-bar" onclick="toggleNav()">
+    <div class="menu-icon"></div>
+    <div class="menu-icon"></div>
+    <div class="menu-icon"></div>
+  </div>
+  <div id="navigation">
+    <div id="close-button" onclick="toggleNav()">
+      <div class="menu-icon"></div>
+      <div class="menu-icon"></div>
+      <div class="menu-icon"></div>
+    </div>
+    <div class="nav_bar_developer">
+      <a href="index.html">Home</a>
+      <a class="right" href="motion_design.html">Motion Design</a>
+      <a class="right" href="#">Development</a>
+      <a href="index.html" >Skills</a>
+      <a href="index.html">Contacts</a>
+    </div>
+  </div>
+
+  <div class="carousel">
+    <div class="carousel__nav">
+     <span id="moveLeft" class="carousel__arrow">
+          <svg class="carousel__icon" width="24" height="24" viewBox="0 0 24 24">
+      <path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z"></path>
+  </svg>
+      </span>
+      <span id="moveRight" class="carousel__arrow" >
+        <svg class="carousel__icon"  width="24" height="24" viewBox="0 0 24 24">
+    <path d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z"></path>
+  </svg>    
+      </span>
+    </div>
+    <div class="carousel-item carousel-item--1">
+      <img class="carousel-item__image" src="images/react.png" alt="">
+      <div class="carousel-item__info">
+        <div class="carousel-item__container">
+        <h1 class="carousel-item__title">DEVELOPER</h1>
+        <p class="carousel-item__description">
+          Website
+          <li>React</li>
+          <li>JS</li>
+          <li>HTML/CSS</li>
+          <li>Adobe XD</li>
+        </p>
+          </div>
+      </div>
+    </div>
+    <div  class="carousel-item carousel-item--2">
+      <video id="videoPlayer" class="carousel-item__image" autoplay muted loop >
+        <source src="images/laptop.mp4" type="video/mp4">
+      </video>
+
+
+      
+      <div class="carousel-item__info">
+        <div class="carousel-item__container">
+        <h1 class="carousel-item__title">GAME DEVELOPER</h1>
+        <p class="carousel-item__description">Games 
+          <li>Unity</li>
+          <li>C#</li>
+          <li>Animations</li>
+        </p>
+          </div>
+      </div>
+    </div>
+      <div class="carousel-item carousel-item--3">
+      <img class="carousel-item__image" src="images/data.png" alt="">
+      <div class="carousel-item__info">
+        <div class="carousel-item__container">
+        <h1 class="carousel-item__title">APP DEVELOPER</h1>
+        <p class="carousel-item__description">
+          Web App
+          <li>JQuery</li>
+          <li>HTML/CSS</li>
+          <li>Python</li>
+        </p>
+
+      </div>
+      </div>
+    </div>
+      
+  </div>
+</body>
+</html>
